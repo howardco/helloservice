@@ -1,0 +1,5 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: auditevents,beans,conditions,configprops,env,flyway,health,heapdump,httptrace,info,jolokia,logfile,loggers,liquibase,metrics,mappings,prometheus,scheduledtasks,sessions,shutdown,threaddump
